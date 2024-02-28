@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ifood/screens/perfil.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -9,7 +10,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int paginaAtual = 0;
-  List paginas = [Text('Home'), Text(''), Text('CARRINHO'), Text('')];
+  List paginas = [Text('Home'), Text(''), Text('CARRINHO'), Perfil()];
 
   void proximaPagina(int index) {
     setState(() {
