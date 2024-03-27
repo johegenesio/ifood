@@ -1,4 +1,3 @@
-import 'dart:html';
 import 'package:flutter/material.dart';
 
 class Perfil extends StatelessWidget {
@@ -68,15 +67,62 @@ class Perfil extends StatelessWidget {
           ),
           ListTile(
             onTap: () {},
-            leading: const Icon(Icons.sell),
+            leading: const Icon(Icons.confirmation_num_outlined),
             title: const Text('Cupons'),
             subtitle: const Text('Meus cupons de desconto'),
             trailing: const Icon(Icons.arrow_right),
           ),
-        ],
-        
+          ListTile(
+            onTap: () {},
+            leading: const Icon(Icons.redeem),
+            title: const Text('Ifood Card'),
+            subtitle: const Text('Minhas área de compra e resgate'),
+            trailing: const Icon(Icons.arrow_right),
+          ),
+          ListTile(
+            onTap: () {},
+            leading: const Icon(Icons.local_activity_outlined),
+            title: const Text('Fidelidade'),
+            subtitle: const Text('Minhas fidelidades'),
+            trailing: const Icon(Icons.arrow_right),
+          ),
+          ListTile(
+            onTap: () {},
+            leading: const Icon(Icons.favorite),
+            title: const Text('Favoritos'),
+            subtitle: const Text('Meus locais favoritos'),
+            trailing: const Icon(Icons.arrow_right),
+          ),
+          ListTile(
+            onTap: () {},
+            leading: const Icon(Icons.explore),
+            title: const Text('Descobrir'),
+            subtitle: const Text('Encontre novidades quentinhas aqui'),
+            trailing: const Icon(Icons.arrow_right),
+          ),
+          ListTile(
+            onTap: () {},
+            leading: const Icon(Icons.volunteer_activism),
+            title: const Text('Doações'),
+            subtitle: const Text('Minhas doações'),
+            trailing: const Icon(Icons.arrow_right),
+          ),
+          ListTile(
+            onTap: () {},
+            leading: const Icon(Icons.location_on),
+            title: const Text('Endereços'),
+            subtitle: const Text('Meus endereços de entrega'),
+            trailing: const Icon(Icons.arrow_right),
+          ),
+          ListTile(
+            onTap: () {},
+            leading: const Icon(Icons.article),
+            title: const Text('Endereços'),
+            subtitle: const Text('Meus endereços de entrega'),
+            trailing: const Icon(Icons.arrow_right),
+          ),
+        ],     
       ),
-
     );
   }
 }
